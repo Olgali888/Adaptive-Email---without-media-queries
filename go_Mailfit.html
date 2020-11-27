@@ -52,7 +52,9 @@ display: none;
 <body style="background: #222B89;margin:0;-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; box-sizing: border-box; width: 100% !important;">
   
    <div id="mailsub" class="notification" align="center" style="word-break:normal;-webkit-text-size-adjust:none; -ms-text-size-adjust: none;line-height: normal;">
-       <!--[if IE]> <table width="600"> <h1 style="color:red; font-size: 60px;">аботает или нет </h1><![endif]-->
+      <!--[if (gte mso 9)|(IE)]><table width="600"> <tr><td>
+<![endif]-->
+
         <table align="center" width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse;background: #222B89;Margin-top:10px;margin-top:10px;margin-bottom:10px;Margin-bottom:10px;">
             <tbody>
                 <tr>
@@ -556,6 +558,10 @@ letter-spacing: 0.02em;color: #ffffff;margin: 12px 0px;text-align:center; text-d
 
                 </tr>
             </tbody>
-        </table>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td></tr>
+</table>
+<![endif]-->
     </div>
 </body></html>
